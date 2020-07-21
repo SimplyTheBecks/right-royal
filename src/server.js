@@ -5,7 +5,7 @@ export default function makeServer({ environment = 'development' } = {}) {
     environment,
 
     routes() {
-      this.namespace = 'api';
+      this.namespace = '/right-royal/api';
 
       this.get('/user-messages/count', () => JSON.stringify({ count: 15 }));
       this.get('/user-notifications/count', () => JSON.stringify({ count: 5 }));

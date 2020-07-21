@@ -2,7 +2,7 @@ import axios from 'axios';
 import eventHub from './eventhub';
 
 const service = axios.create({
-  baseURL: '',
+  baseURL: '/right-royal/api',
   timeout: 10000,
 });
 
