@@ -1,9 +1,7 @@
 module.exports = {
+  publicPath: '/', // '/right-royal/dist/'
   transpileDependencies: [
     'vuetify',
   ],
-
-  pluginOptions: {
-
-  },
+  productionSourceMap: false,
 };
